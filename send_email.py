@@ -5,7 +5,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 email_user = 'ca3108718857@gmail.com'
-email_password = '!23456Aa'
+email_password = ''
 email_send = ''
 
 subject = 'Ice Cream Next Week?'
