@@ -1,3 +1,5 @@
+#getting a toolbar, widget on GUI with value shown
+
 from traitlets import link
 
 a = FloatText()
