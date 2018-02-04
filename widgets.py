@@ -1,6 +1,9 @@
-#how to see a GUI widget with value
+from traitlets import link
 
-from IPython.display import display
-w = IntSlider()
-display(w)
+a = FloatText()
+b = FloatSlider()
+
+display(a,b)
+
+mylink = link((a,'value'),(b,'value'))
 
