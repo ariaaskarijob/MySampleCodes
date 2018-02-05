@@ -9,6 +9,7 @@ public class syncchroniz {
     public static void main(String[] args){
         System.setProperty("webdriver.chrome.driver","C:\\selenium\\chromdriver.exe");
         WebDriver driver=new ChromeDriver();
+        // where the implict time comes in for pages that has to load before looking for elements
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://alaskatrips.poweredbygps.com/g/pt/hotels?MDPCID=ALASKA-US.TPS.BRAND.Hotels.HOTEL");
         driver.findElement(By.id("H-destination")).sendKeys("nyc");
